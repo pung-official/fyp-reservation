@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+
+
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="360dp"
+        android:layout_height="240dp"
+        />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reviews 》"
+        android:gravity="center"
+        android:padding="10dp"
+        android:background="@color/light_grey"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"/>
+
+
+         </LinearLayout>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description :"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+      <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cooking is allowed. Air conditioner provided"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="left"
+        android:padding="10dp"
+        android:background="@color/light_blue"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+
+
+
+    <TextView
+        android:id="@+id/homestayInformation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Homestay Information :"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imageName"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/hotel" />
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Eazy Homestay"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"/>
+        </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <ImageView
+                    android:id="@+id/imagePrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/price" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RM 100"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+              <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <ImageView
+                    android:id="@+id/imageCpacity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/people" />
+
+                <TextView
+                    android:id="@+id/capcity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="9"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+              </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape_table">
+
+                        <ImageView
+                            android:id="@+id/imageRoom"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/room" />
+
+                        <TextView
+                            android:id="@+id/room"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="4"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="18sp"/>
+                    </TableRow>
+
+                            <TableRow
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/shape_table">
+
+                                <ImageView
+                                    android:id="@+id/imageStatus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:src="@drawable/check" />
+
+                                <TextView
+                                    android:id="@+id/status"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:clickable="true"
+                                    android:text="Available"
+                                    android:textAppearance="?android:attr/textAppearanceLarge"
+                                    android:textSize="18sp" />
+                            </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imagePostcode"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/postcode" />
+
+            <TextView
+                android:id="@+id/postcode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7 JALAN SURIA 7 TAMAN MATAHARI 86000 KLUANG JOHOR"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imageCity"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/city" />
+
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7 JALAN SURIA 7 TAMAN MATAHARI 86000 KLUANG JOHOR"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imageState"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/state2" />
+
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="7 JALAN SURIA 7 TAMAN MATAHARI 86000 KLUANG JOHOR"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/shape_table">
+
+                                    <ImageView
+                                        android:id="@+id/imageAddress"
+                                        android:layout_width="25dp"
+                                        android:layout_height="25dp"
+                                        android:src="@drawable/location" />
+
+                                    <TextView
+                                        android:id="@+id/address"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_weight="1"
+                                        android:text="7 JALAN SURIA 7 TAMAN MATAHARI 86000 KLUANG JOHOR"
+                                        android:textAppearance="?android:attr/textAppearanceLarge"
+                                        android:textSize="18sp" />
+
+
+                                </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imageAnnouncement"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/advertise" />
+
+            <TextView
+                android:id="@+id/announcement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Announcement"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imagePackage"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/beach" />
+
+            <TextView
+                android:id="@+id/list_package"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:text="Package"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+
+
+        </TableRow>
+
+    </TableLayout>
+    <Button
+        android:id="@+id/buttonBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Book"
+        android:textSize="18sp"
+        android:background="@drawable/green_button"
+        style="@style/button_text"/>
+
+</LinearLayout>
+</ScrollView>

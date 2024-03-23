@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@mipmap/travel_home"
+    tools:context="com.example.user.reservation.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@mipmap/welcome" />
+
+    <EditText
+        android:id="@+id/editText_username"
+        android:layout_width="600px"
+        android:layout_height="100px"
+        android:padding="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="18sp"
+        android:hint="@string/enterusername"
+        android:inputType="textPersonName"
+        android:layout_marginTop="50dp"
+        android:alpha="0.7"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:maxLength="10"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/editText_password"
+        android:layout_width="600px"
+        android:layout_height="100px"
+        android:padding="15dp"
+        android:background="@drawable/rounded_edittext"
+        android:textSize="18sp"
+        android:hint="@string/enterpassword"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:alpha="0.7"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:maxLength="10"
+        android:drawableLeft="@drawable/pass"
+        android:drawablePadding="15dp"
+       />
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="600px"
+        android:layout_height="100px"
+        android:padding="10sp"
+        android:text="@string/Login"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:onClick="btnsend"
+        android:alpha="0.8"
+        android:background="@drawable/rounded"/>
+
+
+
+    <TextView
+        android:id="@+id/register"
+        android:layout_width="600px"
+        android:layout_height="50px"
+        android:text="@string/RegisterNow"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        />
+
+        <TextView
+            android:id="@+id/forgetpassword"
+            android:layout_width="600px"
+            android:layout_height="50px"
+            android:gravity="center"
+            android:text="@string/Forgetpass"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            />
+
+</LinearLayout>

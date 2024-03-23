@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:layout_marginTop="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  >
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5sp"
+            android:weightSum="1"
+            android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/ReservationNo"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="left"
+                    android:text="No 1"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/check" />
+
+                <TextView
+                    android:id="@+id/Status"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="left"
+                    android:text="Status"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="center"
+            android:padding="5sp"
+            android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/Textview5"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="left"
+                    android:text="Price (RM)"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/imagePrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/money" />
+
+                <TextView
+                    android:id="@+id/Price"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="left"
+                    android:text="50"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="center"
+            android:padding="5sp"
+            android:background="@color/white" >
+
+                <TextView
+                    android:id="@+id/Textview3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="left"
+                    android:text="Homestay"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/imageHomestay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/hotel" />
+
+                <TextView
+                    android:id="@+id/Homestay_name"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="left"
+                    android:text="HomestayName"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5sp"
+            android:weightSum="1"
+            android:background="@color/white">
+
+                <TextView
+                    android:id="@+id/Textview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="left"
+                    android:text="Checkin"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageChckin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/checkin" />
+
+                <TextView
+                    android:id="@+id/Checkin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="left"
+                    android:text="25/9/2017"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:gravity="center"
+            android:padding="5sp"
+            android:background="@color/white" >
+
+                <TextView
+                    android:id="@+id/Textview2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="left"
+                    android:text="Checkout"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+                <ImageView
+                    android:id="@+id/imagecheckout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:src="@drawable/checkout" />
+
+                <TextView
+                    android:id="@+id/Checkout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:gravity="left"
+                    android:text="25/9/2017"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:gravity="center"
+                android:padding="5sp"
+                android:background="@color/white">
+
+
+                <ImageView
+                    android:id="@+id/imageAddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="0.5"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/Address"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="0.5"
+                    android:gravity="left"
+                    android:padding="5sp"
+                    android:text="7 Jalan Suria 7 Taman Matahari"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:gravity="center"
+                android:padding="5sp"
+                android:background="@color/white">
+
+                <Button
+                    android:id="@+id/buttonPay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="View"
+                    android:layout_weight="0.5"
+                    android:onClick="buttonPay"
+                    android:textSize="18sp"
+                    android:padding="10sp"
+                    android:background="@drawable/button" />
+
+
+
+
+            </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="@drawable/dialogue_layout"
+        android:gravity="center"
+        android:padding="2dp" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:text="014 - 2365620"
+            android:textColor="@color/textbody"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

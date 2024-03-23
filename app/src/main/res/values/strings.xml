@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Istay</string>
+    <string name="Password">Password</string>
+    <string name="Username">Username</string>
+    <string name="Login">Login</string>
+    <string name="RegisterNow">Register Now</string>
+    <string name="enterusername">Username</string>
+    <string name="enterpassword">Password</string>
+    <string name="RePassword">Confirm Password</string>
+
+    <string name="item_1">Homestay</string>
+    <string name="item_2">Search</string>
+    <string name="item_3">Booking</string>
+    <string name="item_4">More</string>
+
+    <string name="Forgetpass">Forget Password?</string>
+
+    <string name="reservation">Form Validation</string>
+
+    <string name="letter">4-10 letters without space only !!</string>
+
+    <string name="name">Please enter your name without digits!</string>
+
+    <string name="emailerror">Enter Valid Email</string>
+
+    <string name="passworderror">Enter 8 min length of password without space and symbol !</string>
+
+    <string name="password_combination">At least 8 password length with combination of digits,symbol and small, capital letter </string>
+
+    <string name="nospace">No space in between is allowed !</string>
+
+    <string name="err_password_confirmation">Enter the same password</string>
+    <string name="mobileerror">Enter Valid Contact Number</string>
+    <string name="state">Choose your state</string>
+</resources>

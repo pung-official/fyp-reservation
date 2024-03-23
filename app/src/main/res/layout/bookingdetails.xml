@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="360dp"
+            android:layout_height="240dp"
+            android:src="@drawable/profile"/>
+
+        <TextView
+            android:id="@+id/bank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin Account: Maybank (7040744655)"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/homestayInformation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reservation Information :"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp"/>
+
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <ImageView
+                    android:id="@+id/imageName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/hotel" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Eazy Homestay"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <ImageView
+                    android:id="@+id/imageStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/check" />
+
+                <TextView
+                    android:id="@+id/status"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true"
+                    android:text="Available"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <ImageView
+                    android:id="@+id/imagePrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/price" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="RM 100"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <ImageView
+                    android:id="@+id/imageCheckin"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/checkin" />
+
+                <TextView
+                    android:id="@+id/checkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20/12/2017"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <ImageView
+                    android:id="@+id/imageCheckout"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/checkout" />
+
+                <TextView
+                    android:id="@+id/checkout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="20/12/2017"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <ImageView
+                    android:id="@+id/imageAddress"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:src="@drawable/location" />
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="7 JALAN SURIA 7 TAMAN MATAHARI 86000 KLUANG JOHOR"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp" />
+
+
+            </TableRow>
+
+     </TableLayout>
+        <Button
+            android:id="@+id/Upload"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Upload receipt"
+            android:textSize="18sp"
+            android:background="@drawable/bordercancel"/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/orange"
+   >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="50dp"
+        app:civ_border_color="#e6e6e6"
+        app:civ_border_width="2dp" />
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="left"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Username"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Username2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Username"
+            android:layout_weight="0.3"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Username" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="left"
+        android:textSize="18sp"
+        android:layout_marginTop="15dp"
+        >
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Name2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Name"
+            android:layout_weight="0.3"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Name" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="left"
+        android:layout_marginTop="15dp"
+        >
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Email"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Email2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Email"
+            android:layout_weight="0.3"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Email" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="left"
+
+        android:layout_marginTop="15dp"
+        >
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contact"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Contact2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Contact"
+            android:layout_weight="0.3"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Contact" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:gravity="left"
+        android:layout_marginTop="15dp"
+        >
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gender"
+            android:layout_weight="0.7"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Gender2" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Gender"
+            android:layout_weight="0.3"
+            android:gravity="left"
+            android:textSize="18sp"
+            android:id="@+id/Gender" />
+
+    </LinearLayout>
+
+</LinearLayout>

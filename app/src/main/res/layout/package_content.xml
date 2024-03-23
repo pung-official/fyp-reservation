@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/namePackage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="left"
+            android:text="Package Name"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:gravity="left"
+            android:text="20/9/2017"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/pricePackage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="left"
+            android:text="Price (RM)"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:gravity="left"
+            android:text="RM 55"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/dayPackage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="left"
+            android:text="Available on"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/day"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:gravity="left"
+            android:text="Monday"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        android:weightSum="1">
+
+    <TextView
+            android:id="@+id/addressPackage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="left"
+            android:text="Address"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/address"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:gravity="left"
+            android:text="7 jalan suria"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        android:weightSum="1">
+
+    <TextView
+            android:id="@+id/descriptionPackage"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.6"
+            android:gravity="left"
+            android:text="Description"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.4"
+            android:gravity="left"
+            android:text="25/9/2019 - 27/9/2019 is not available"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+        </LinearLayout>
+
+
+
+
+
+</LinearLayout>

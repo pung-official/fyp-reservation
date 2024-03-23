@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="@drawable/shape"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <TextView
+                    android:id="@+id/TextviewCheckin"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Checkin"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/checkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Please Select"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/shape_table">
+
+                        <TextView
+                            android:id="@+id/TextviewCheckout"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:text="Checkout"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="18sp"/>
+                        <TextView
+                            android:id="@+id/checkout"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Please Select"
+                            android:textStyle="bold"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="18sp"/>
+                    </TableRow>
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/shape_table">
+
+                            <TextView
+                                android:id="@+id/TextviewNight"
+                                android:layout_width="100dp"
+                                android:layout_height="wrap_content"
+                                android:text="Nights"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textSize="18sp"/>
+                            <TextView
+                                android:id="@+id/nights"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="0"
+                                android:textStyle="bold"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textSize="18sp"/>
+                        </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table2">
+
+                <TextView
+                    android:id="@+id/TextviewPrice"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Price in RM"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0.00"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+
+        </TableLayout>
+        <Button
+            android:id="@+id/buttonNext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="Next"
+            android:textSize="18sp"
+            android:background="@drawable/green_button"
+            style="@style/button_text"/>
+
+    </LinearLayout>
+</ScrollView>

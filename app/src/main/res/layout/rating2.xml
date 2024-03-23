@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="15sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        android:background="@color/white"
+        android:weightSum="1">
+
+
+        <TextView
+            android:id="@+id/TextviewRating"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Rating"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            app:srcCompat="@drawable/good" />
+
+        <RatingBar
+        android:id="@+id/pop_ratingbar"
+        style="?android:attr/ratingBarStyleIndicator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:isIndicator="true"
+        android:numStars="5"
+        android:scaleX="0.8"
+        android:scaleY="0.8"
+        android:stepSize="0.5"
+        android:transformPivotX="50dp"
+        android:transformPivotY="0dp"
+       />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="5sp"
+        android:background="@color/white"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/TextviewComment"
+            android:layout_width="98dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Comment"
+            android:paddingRight="5dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_weight="0.2"
+            app:srcCompat="@drawable/chat" />
+
+        <TextView
+            android:id="@+id/comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:gravity="left"
+            android:text="It is not bad"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+</LinearLayout>

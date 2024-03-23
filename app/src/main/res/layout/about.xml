@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+    android:id="@+id/textViewProfile"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:textStyle="bold"
+    android:text="Stay with Istay"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewProfile2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="5dp"
+        android:lineSpacingExtra="5dp"
+        android:text="Who are Istay? Istay is made by made by Malaysian for the world to seek new experience when come to Malaysia "
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewProfile3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:text="Why you should stay with Istay?"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+
+    <TextView
+    android:id="@+id/textViewProfile4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_marginTop="5dp"
+
+    android:layout_marginLeft="5dp"
+    android:text="Save time, cost. Immersive local culture"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textSize="18sp"/>
+
+    <TextView
+    android:id="@+id/textViewProfile5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="left"
+    android:layout_marginTop="15dp"
+    android:layout_marginLeft="5dp"
+    android:text="Anyone who wants like to find a homestay in Malaysia is welcome to join us !"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+        android:lineSpacingExtra="5dp"
+    android:textSize="18sp"/>
+</LinearLayout>

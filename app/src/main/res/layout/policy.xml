@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="15dp">
+
+<TextView
+    android:id="@+id/textViewProfile1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dp"
+    android:textStyle="bold"
+    android:text="Policy and Regulation"
+    android:textAppearance="?android:attr/textAppearanceLarge"
+    android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/textViewProfile2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+        android:gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="IStay is a mobile booking application that allows the visitors to register as a homestay member to make a booking"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+
+
+        <TextView
+        android:id="@+id/textViewProfile3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+        android:gravity="left"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:text="Utilize Malaysian currency Ringgit (MYR)"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+
+            <TextView
+            android:id="@+id/textViewProfile4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingExtra="5dp"
+            android:gravity="left"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:text="English is the main Enlish in Istay"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp"/>
+
+                    <TextView
+                        android:id="@+id/textViewProfile5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:lineSpacingExtra="5dp"
+                        android:gravity="left"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="Booking payment is non-refundable"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="18sp"/>
+
+                        <TextView
+                            android:id="@+id/textViewProfile6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:lineSpacingExtra="5dp"
+                            android:gravity="left"
+                            android:layout_marginTop="15dp"
+                            android:layout_marginLeft="5dp"
+                            android:text="Paying receipt should be uploaded to the owner for booking confirmation"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:textSize="18sp"/>
+
+                            <TextView
+                                android:id="@+id/textViewProfile7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lineSpacingExtra="5dp"
+                                android:gravity="left"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="Implements a customer feedback function"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textSize="18sp"/>
+
+                                <TextView
+                                android:id="@+id/textViewProfile8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:lineSpacingExtra="5dp"
+                                android:gravity="left"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginLeft="5dp"
+                                android:text="The members can give comments and rating for each homestay"
+                                android:textAppearance="?android:attr/textAppearanceLarge"
+                                android:textSize="18sp"/>
+                                </LinearLayout>
+
+
+

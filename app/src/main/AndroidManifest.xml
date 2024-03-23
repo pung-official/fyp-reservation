@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.reservation">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo2"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+        </activity>
+
+        <activity
+            android:name=".Splash"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".register"
+            android:label="Register"/>
+
+        <activity android:name=".change_password"
+            android:label="Change Password"/>
+
+            <activity android:name=".forgetpass"
+                android:label="Forget Password"/>
+
+            <activity android:name=".password_reset"
+                android:label="Forget Password"/>
+
+                <activity android:name=".bottomlayoutframe"/>
+
+                     <activity android:name=".ProfileActivity"
+                         android:label="View Profile"/>
+
+                          <activity android:name=".UpdateActivity"
+                              android:label="Edit Profile"/>
+
+        <activity android:name=".homestay_show.homestay_list"
+            android:label="View Homestay"/>
+
+
+        <activity android:name=".homestay_show.homestay_list_penang"
+            android:label="View Homestay"/>
+
+        <activity android:name=".homestay_show.homestay_list_melaka"
+            android:label="View Homestay"/>
+
+        <activity android:name=".about"
+            android:label="About Us"/>
+
+        <activity android:name=".policy"
+            android:label="Regulation and Policy"/>
+
+                 <activity android:name=".homestay_show.make_booking"
+                     android:label="Homestay Details"/>
+
+                    <activity android:name=".make_booking2"
+                        android:label="Booking Details"/>
+
+                        <activity android:name=".make_booking3"
+                            android:label="Booking Payment"/>
+
+
+        <activity android:name=".announcement_folder.announcement"
+            android:label="Announcement"/>
+
+        <activity android:name=".rating"
+                                    android:label="View Reviews"/>
+
+                                    <activity android:name=".update_image"
+                                        android:label="Update Profile Picture"/>
+
+        <activity android:name=".package_folder.package_list"
+            android:label="Package List"/>
+
+        <activity android:name=".booking_details"
+            android:label="Booking Details"/>
+
+        <activity android:name=".search_homestay_list"
+            android:label="Search Result"/>
+    </application>
+
+</manifest>

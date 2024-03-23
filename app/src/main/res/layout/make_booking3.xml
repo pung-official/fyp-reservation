@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="*"
+            android:background="@drawable/shape"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp">
+
+            <!--
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <TextView
+                    android:id="@+id/TextviewName"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Owner Name"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/checkin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pung Kui Sin"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+-->
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <TextView
+                    android:id="@+id/TextviewName"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Name"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hot Homestay"
+                    android:ems="10"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <TextView
+                    android:id="@+id/TextviewDay"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Nights"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/night"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <TextView
+                    android:id="@+id/TextviewPrice"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Total Price (RM)"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="250.00"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shape_table">
+
+                    <TextView
+                        android:id="@+id/TextviewCheckin"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="Checkin"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="18sp"/>
+                    <TextView
+                        android:id="@+id/checkinDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="29/4/2017"
+                        android:textStyle="bold"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:textSize="18sp"/>
+                </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table">
+
+                <TextView
+                    android:id="@+id/TextviewCheckout"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Checkout"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/checkoutDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="9/5/2017"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+
+            <TableRow
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/shape_table2">
+
+                <TextView
+                    android:id="@+id/TextviewAddres"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="7 jalan suria 7 taman matahari 86000 kluang johor"
+                    android:textStyle="bold"
+                    android:ems="10"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:textSize="18sp"/>
+            </TableRow>
+
+        </TableLayout>
+        <Button
+            android:id="@+id/buttonBook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Confirm Booking"
+            android:textSize="18sp"
+            android:background="@drawable/green_button"
+            style="@style/button_text"/>
+
+    </LinearLayout>
+</ScrollView>

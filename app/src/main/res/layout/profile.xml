@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="@color/orange">
+
+    <TextView
+        android:id="@+id/textViewProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Profile"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+
+
+    <!-- first table -->
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="30dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/profile_pic" />
+
+            <TextView
+                android:id="@+id/gotoProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+
+                android:text="View Profile"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/edit"
+                />
+            <TextView
+                android:id="@+id/gotoProfileEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Edit Profile"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/edit_picture"
+                />
+            <TextView
+                android:id="@+id/gotoEditPicture"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Edit Picture"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table2">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/lock_2"
+                />
+            <TextView
+                android:id="@+id/gotoEditPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Change Password"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp" />
+        </TableRow>
+    </TableLayout>
+    <!-- first table end-->
+
+    <TextView
+        android:id="@+id/AboutIstay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="About Istay"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+    <!-- second table-->
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/shape"
+        android:layout_marginBottom="30dp"
+        >
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imageViewAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/about" />
+
+            <TextView
+                android:id="@+id/gotoAboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="About Us"
+                android:clickable="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table2">
+
+            <ImageView
+                android:id="@+id/imageViewPrivacy"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/rule" />
+
+            <TextView
+                android:id="@+id/gotoRule"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Privacy and Policy"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"/>
+        </TableRow>
+    </TableLayout>
+    <!-- second table end-->
+
+    <!-- third table-->
+    <TextView
+        android:id="@+id/About"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:text="Contact Istay"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="18sp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="@drawable/shape"
+        >
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+            <ImageView
+                android:id="@+id/imageFacebook"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/facebook" />
+
+            <TextView
+                android:id="@+id/gotoFacebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Facebook"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"/>
+        </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+            android:background="@drawable/shape_table">
+
+        <ImageView
+            android:id="@+id/imageViewContact"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/contact" />
+
+        <TextView
+            android:id="@+id/gotoContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:clickable="true"
+            android:text="Contact"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="18sp"/>
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/shape_table2">
+
+            <ImageView
+                android:id="@+id/imageEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:id="@+id/gotoEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Email"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="18sp"/>
+        </TableRow>
+
+
+    </TableLayout>
+<!--third table-->
+
+</LinearLayout>
+</ScrollView>
